@@ -9,6 +9,7 @@ i = 1
 while(i <= max(max(a), max(b))):
     flag = False
     counterb = countera = 0
+
     for item in a:
         if i % item == 0:
             countera += 1
