@@ -1,6 +1,6 @@
-n = int(input())
+t = int(input())
 #print(n)
-for i in range(n):
+for i in range(t):
     n, m = [int(s) for s in input().split()]
     #print(n, m)
     squares = 0                         #counter for squares
