@@ -1,3 +1,5 @@
+#http://practice.geeksforgeeks.org/problems/implement-strstr/1
+
 def strstr(str, substr):
     index = -1
     for i in range(len(str)):
