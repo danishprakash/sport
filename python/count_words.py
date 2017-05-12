@@ -1,4 +1,6 @@
 #!python3
+#simple python script to count the number of words in a given string from the clipboard
+
 import pyperclip
 
 text = pyperclip.paste()
