@@ -1,0 +1,14 @@
+import math
+n = int(input())
+
+sum_ = flag = 0
+x = 1
+y = 2
+
+for x in range(2, math.sqrt(n)+1):
+    y = 1
+    while()
+if flag:
+    print('1')
+else:
+    print('0')
