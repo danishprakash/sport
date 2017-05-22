@@ -1,4 +1,4 @@
-#http://practice.geeksforgeeks.org/problems/geek-and-coffee-shop/0
+# http://practice.geeksforgeeks.org/problems/geek-and-coffee-shop/0
 
 t = int(input())
 for i in range(t):
