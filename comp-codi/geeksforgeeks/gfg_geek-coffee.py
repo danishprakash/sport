@@ -1,5 +1,9 @@
+<<<<<<< HEAD:comp-codi/gfg_geek-coffee.py
+# http://practice.geeksforgeeks.org/problems/geek-and-coffee-shop/0
+=======
 #http://practice.geeksforgeeks.org/problems/geek-and-coffee-shop/0
 import math
+>>>>>>> ad33d4e14cd07ac36f9a022ccbb6c171defc6a74:comp-codi/geeksforgeeks/gfg_geek-coffee.py
 
 t = int(input())
 for i in range(t):
