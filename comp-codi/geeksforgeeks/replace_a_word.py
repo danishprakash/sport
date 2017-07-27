@@ -5,11 +5,14 @@ for i in range(t):
     old = input()
     new = input()
     res = orig
-    
-    for j in range(len(orig)):
-        print(j, orig[j:j+len(old)])
-        if orig[j:j+len(old)] == old:
-            print(orig[j:len(old)], len(old), j)
-            res  = orig[:j] + new + orig[len(old):]
+    j = 0
+
+    while j < len(res):
+        #print(j, orig[j:j+len(old)])
+        if res[j:j+len(old)] == old:
+            #print(orig[j:len(old)], len(old), j)
+            res  = res[:j] + new + res[j+len(old):]
+        #print(res)
+        j += 1
 
     print(res)
