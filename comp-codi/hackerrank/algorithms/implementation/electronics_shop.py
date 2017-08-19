@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/electronics-shop
+
 s, k, u = [int(x) for x in input().split()]
 key = [int(x) for x in input().split()]
 usb = [int(x) for x in input().split()]
